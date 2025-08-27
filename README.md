@@ -2,7 +2,8 @@
 Script in node.js to download a folder from your Dataprius account to your hard drive. 
 To have a local backup of some cloud folder in your computer, external hard drive or server.
 
-The script use the Dataprius API.
+The script use the Dataprius API (https://api.dataprius.org/).
+
 # Requirements
 1. Have a Dataprius account (https://dataprius.com/en/downloads.html)
 2. Enable your API Keys. (https://dataprius.com/en/api-developers-zone-version-2-0.html)
