@@ -7,11 +7,11 @@ The script use the Dataprius API (https://api.dataprius.org/).
 # Requirements
 1. Have a Dataprius account (https://dataprius.com/en/downloads.html)
 2. Enable your API Keys. (https://dataprius.com/en/api-developers-zone-version-2-0.html)
-3. Configure the script values.
-4. Downloading and installing Node.js and npm.
+3. Downloading and installing Node.js and npm.
+4. Configure the script values.
 
 # Usage
-1. Configure your API access, source an destination folder.
+1. Configure your API access, source and destination folder.
   You only have to configure the .env file with:
 ```
     DP_CLIENT_ID=your client ID
