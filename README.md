@@ -11,13 +11,17 @@ The script use the Dataprius API.
 # Usage
 1. Configure your API access, source an destination folder.
   You only have to configure the .env file with:
+```
     DP_CLIENT_ID=your client ID
     DP_CLIENT_SECRET=your secret code
     DP_FOLDER_DIR=/TEST
     BACKUP_DIR=c:\your folder path
+```
 
-2. Run the script:
+3. Run the script:
+```
    node DatapriusFolderToLocal.js
+```
 
 # Recommendation
 Install pm2 to schedule the script execution. (https://pm2.keymetrics.io/)
