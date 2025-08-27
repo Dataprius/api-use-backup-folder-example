@@ -1,12 +1,24 @@
 {
   "name": "api-use-backup-folder-example",
   "version": "1.0.0",
+  "description": "Node.js example script to backup a folder from Dataprius cloud API to local storage",
   "main": "DatapriusFolderToLocal.js",
   "scripts": {
-    "start": "node DatapriusFolderToLocal.js"
+    "start": "node DatapriusFolderToLocal.js",
+    "backup": "node DatapriusFolderToLocal.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dataprius/api-use-backup-folder-example.git"
+  },
+  "keywords": ["nodejs", "dataprius", "backup", "api-rest", "scripts"],
+  "author": "Dataprius",
+  "license": "GPL-3.0",
   "dependencies": {
-    "axios": "^1.7.2",
-    "dotenv": "^16.0.3"
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
