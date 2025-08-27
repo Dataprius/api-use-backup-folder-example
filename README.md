@@ -6,7 +6,8 @@ The script use the Dataprius API.
 # Requirements
 1. Have a Dataprius account (https://dataprius.com/en/downloads.html)
 2. Enable your API Keys. (https://dataprius.com/en/api-developers-zone-version-2-0.html)
-3. Configure the script values
+3. Configure the script values.
+4. Downloading and installing Node.js and npm.
 
 # Usage
 1. Configure your API access, source an destination folder.
@@ -17,8 +18,11 @@ The script use the Dataprius API.
     DP_FOLDER_DIR=/TEST
     BACKUP_DIR=c:\your folder path
 ```
-
-3. Run the script:
+2. Install node.js dependencies
+```
+   npm install dotenv axios
+```
+4. Run the script:
 ```
    node DatapriusFolderToLocal.js
 ```
